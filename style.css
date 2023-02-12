@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html,body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.rightBox{
+    display: flex;
+    margin: 12px;
+}
+@media (max-width: 1161px){
+    header{
+        height: 132px;
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightBox{
+        display: flex;
+        margin: 12px;
+    }
+    .container{
+        padding: 0 10vw;
+    }
+    nav ul li {
+        padding: 0px 6px;
+        list-style: none;
+        font-size: 10px;
+    }
+    .section1 {
+        background-color: rgb(244, 244, 248);
+        padding-top: 14px;
+        width: 100%;
+    }
+    .containerHeader{
+        padding: 0 2vw;
+    }
+    .section2{
+        height: 44vh;
+        padding-left: 34vw;
+    }
+}
+.left img{
+    margin: auto;
+    width: 70px;
+    height: 40px;
+}
+nav{
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 14px;
+    height: 79px;
+    width: 100%;
+}
+nav ul{
+    align-items: center;
+    padding: 0px 12px;    
+}
+nav ul li{
+    padding: 0px 12px;
+    list-style: none;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+.container{
+    max-width: 0 10vw;
+}
+.section1{
+    background-color: rgb(244, 244, 248);
+    /* height: 44vh; */
+    padding-top: 22px;
+    padding-right: 22px;
+    
+}
+.section2{
+    height: 10vh;
+}
+
+/* .container{ 
+    padding: 0 10vw; 
+}
+  
+.containerHeader{ 
+    padding: 0 10vw; 
+} */
+.Search{
+    width: 34vw;
+    padding: 7px 17px;
+    border: 0.5px solid grey;
+    background-color: rgb(238, 238, 245);
+    border-radius: 5px;
+}
+.homeImg{
+    width: 93vw;
+    height: 575px;
+    padding: 0px 32px;
+}
+.homeImg1{
+    height: 200px;
+    width: 99vw;
+    padding-top: 23px;
+}
+.homeImg2{
+    height: 200px;
+    width: 99vw;
+    padding-top: 23px;
+}
+.section2{
+    height: 44vh;
+}
+.itemImg{
+    width: 12vw;
+    margin: 6px 10px;
+  }
+  footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+  }
+
+.tall{
+    min-height: 40vh;
+}
